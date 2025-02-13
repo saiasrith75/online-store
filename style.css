@@ -1,0 +1,117 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body style */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background-color: #e8f0f2; /* Light background similar to Starbucks website */
+    flex-direction: column;
+    margin: 0;
+    color: #333;
+}
+
+/* Main container */
+.main {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px; /* Adjusted to a more centered layout */
+    text-align: center;
+}
+
+/* Title styling */
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #006747; /* Starbucks Green */
+    margin-bottom: 30px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Input styling */
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+/* Focus on input fields */
+input:focus {
+    border-color: #006747; /* Starbucks Green */
+    outline: none;
+    background-color: #fff;
+}
+
+/* Button styling */
+button {
+    padding: 16px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #006747; /* Starbucks Green */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #004c3f; /* Darker Green */
+}
+
+/* Wrap container */
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Link styling */
+a {
+    text-decoration: none;
+    color: #006747; /* Starbucks Green */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #004c3f; /* Darker Green */
+}
+
+/* Adjusting spacing between elements */
+.main > * {
+    margin-bottom: 20px;
+}
+
+/* Adding some padding to the body for aesthetics */
+body {
+    padding: 20px;
+}
